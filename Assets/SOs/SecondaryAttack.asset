@@ -16,6 +16,6 @@ MonoBehaviour:
   damage: 15
   knockback: 30
   dash: 25
-  attackDuration: 0.32475
+  attackDuration: 0.333
   attackDelay: 0.225
   vibration: 0.1

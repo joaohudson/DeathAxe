@@ -100,7 +100,6 @@ public class CombatController : MonoBehaviour
     }
 
     /// <summary>
-    /// <summary>
     /// Cancela o ataque.
     /// </summary>
     public void CancelAttack()
@@ -112,6 +111,7 @@ public class CombatController : MonoBehaviour
         }
     }
 
+    /// <sumary>
     /// Faz este personagem atacar.
     /// </summary>
     public void Attack()
