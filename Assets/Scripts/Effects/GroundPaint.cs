@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GoundPaint : MonoBehaviour
+public class GroundPaint : MonoBehaviour
 {
     private static Vector3 OFFSET = new Vector3(0f, .01f, 0f);
 
@@ -23,9 +23,13 @@ public class GoundPaint : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
         RaycastHit hit;
+        Ray ray = new Ray()
+        {
+            origin = transform.position,
+            direction = Vector3.down
+        };
 
-
-        if(Physics.Raycast(transform.position, Vector3.down, out hit, groundLayer))
+        if(Physics.Raycast(ray, out hit, Mathf.Infinity, groundLayer))
         {
             Instantiate(effect, hit.point + OFFSET, effect.transform.rotation);
         }

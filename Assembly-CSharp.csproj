@@ -80,7 +80,7 @@
     <Compile Include="Assets\Scripts\Effects\Bilboard.cs" />
     <Compile Include="Assets\Scripts\Effects\CharacterChuncksEffect.cs" />
     <Compile Include="Assets\Scripts\Effects\DestroyInTime.cs" />
-    <Compile Include="Assets\Scripts\Effects\GoundPaint.cs" />
+    <Compile Include="Assets\Scripts\Effects\GroundPaint.cs" />
     <Compile Include="Assets\Scripts\Effects\LavaEffect.cs" />
     <Compile Include="Assets\Scripts\Effects\MeshColor.cs" />
     <Compile Include="Assets\Scripts\EnemieManager.cs" />
