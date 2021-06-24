@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackID: 0
   damage: 10
-  knockback: 20
-  dash: 16
+  knockback: 8
+  dash: 0
   attackDuration: 0.333
   attackDelay: 0.225
   vibration: 0.1

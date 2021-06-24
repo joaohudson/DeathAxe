@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detectRange: 50
-  stayAttackDuration: 1
+  stayAttackDuration: 1.5
 --- !u!114 &5704105006677631210
 MonoBehaviour:
   m_ObjectHideFlags: 0
