@@ -18,4 +18,4 @@ MonoBehaviour:
   dash: 120
   attackDuration: 0.8
   attackDelay: 0.55
-  vibration: 0.4
+  vibration: 0.5
